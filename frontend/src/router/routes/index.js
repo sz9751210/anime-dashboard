@@ -1,6 +1,6 @@
 import Layout from '@/layout/index.vue'
 import Dashboard from '@/views/dashboard/index.vue'
-import devopsRoutes from './modules/devops'
+import animeRoutes from './modules/anime'
 import NotFound from '@/views/error-page/404.vue'
 
 // 基础路由配置数组，包含了应用中的一些基本路由
@@ -53,8 +53,8 @@ export const basicRoutes = [
       },
     ],
   },
-  // devops路由，包含了多个子路由
-  ...devopsRoutes,
+  // anime路由，包含了多个子路由
+  ...animeRoutes,
 ]
 
 // 当访问的路由不存在时，重定向到404页面
